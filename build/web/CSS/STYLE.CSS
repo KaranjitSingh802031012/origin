@@ -1,0 +1,245 @@
+body{
+	background:url(../images/body-bg.gif) 50% 0;
+	font:12px/18px arial;
+	color:#717171;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+MAIN{
+	BACKGROUND:URL(../images/close-up-of-wooden-plank-326311.JPG);
+	MIN-HEIGHT:100%
+}
+
+header{
+	position:relative;
+	width:1200px;
+	
+	margin:0px auto;
+	padding:80px 0 0 0;
+	background:url(../close-up-of-wooden-plank-326311.jpg) no-repeat center 80px;
+	
+}
+.inner{
+	background:url(../images/header-bg.png);
+	padding:26px 40px 25px 40px;
+	position:relative;
+	z-index:2;
+}
+
+					/******************** logo ***************************/
+
+.logo {
+	display:inline-block;
+	padding:0;
+}
+.logo a{
+	position:relative;
+	background:url(../images/logo_cdac.png) no-repeat 0 0;
+	height:62px;
+	width:587px;
+	display:block;
+	overflow:hidden;
+	text-indent:-99em;
+}
+
+
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav{
+	float:right;
+	padding:12px 0 0 0;
+}
+.menu ul{
+	position:absolute;
+	top:-999em;
+	left:0;
+	display:none;
+	width:185px;
+	min-height:48px;
+}
+.menu li{
+	position:relative;
+	float:left;
+	margin:0 28px;
+}
+.menu li a
+{
+	text-decoration:none;
+	display:block;
+	font-family:'open sans';
+	font-size:14px;
+	line-height:18px;
+	text-transform:uppercase;
+	color:#fff;
+	padding:5px 0 0 0;
+}
+.menu li:hover a, .menu li.current a{
+		color:#afaa9b;
+		background:url(../images/nav-active.png) no-repeat center 0;
+}
+
+.content-bg
+{
+	background:url(../images/body-bg.gif);
+	padding:35px 20px 43px 20px;
+	height:800px;
+}
+
+.def-list-1
+{
+	padding:0 0 10px 0;
+}
+.def-list-1 dt
+{
+	display:block;
+	font-size:12px;
+	line-height:18px;
+	padding:0 0 6px 0;
+	font-weight:bold;
+}
+.def-list-1 a
+{
+	color:#b09609;
+	text-decoration:none;
+}
+.def-list-1 a:hover{
+	text-decoration:underline;
+}
+
+.banner-box
+{
+	background:#292929;
+	padding:25px 135px 35px 40px;
+	position:relative;
+}
+.banner-box h3{
+	font-size:34px;
+	line-height:40px;
+	padding:0;
+	
+}
+.banner-box h4{
+		font-family:'open sans';
+		line-height:26px;
+		padding:0 0 18px 0;
+		letter-spacing:-1px;
+		font-weight:300px;
+		margin:5px 0 0 0;
+		font-size:21px;
+		text-transform:uppercase;
+}
+.inside{
+	position:relative;
+	z-index:2;
+}
+.quote
+{
+	font-size:12px;
+	line-height:20px;
+	font-style:italic;
+	position:relative;
+	padding:0 0 15px 0;
+}
+.quote strong{
+	color:#b09609;
+	font-weight:normal;
+}
+
+.quote:before{
+	display:inline-block;
+	background:url(../images/quote-before.png) no-repeat 0 0;
+	content:" ";
+	width:14px;
+	height:13px;
+	margin:0 5px 0 0;
+}
+.quote:after{
+	display:inline-block;
+	background:url(../images/quote-after.png) no-repeat 0 0;
+	content:" ";
+	width:14px;
+	height:13px;
+	margin:0 0 0 6px;
+}
+.author
+{
+	display:inline-block;
+	font-family:'open sans';
+	color:#fff;
+	font-size:14px;
+	line-height:20px;
+	font-weight:bold;
+}
+.author i{
+	font-weight:normal;
+}
+.banner-img
+{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+.list-1{
+	padding:0 0 60px 0;
+}
+.list-1 li
+{
+	display:block;
+	padding:4px 0 4px 16px;
+	border-top:1px solid #323232;
+	background:url(../images/list-1-marker.gif) no-repeat 0 10px;
+}
+.list-1 li:first-child
+{
+	border:none;
+	padding:0 0 6px 16px;
+	background:url(../images/list-1-marker.gif) no-repeat 0 5px;
+}
+.list-1 li a{
+	color:#717171;
+	font-size:14px;
+	line-height:20px;
+	padding:5px 0 6px;
+	text-decoration:none;
+}
+.list-1 li a:hover{color:#fff;}
+
+
+/********************** heading *********************/
+h1,h2,h3,h4,h5
+{
+	color:#fff;
+	padding:0 0 9px 0;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	font-family:'passion one';
+}
+h2{font-size:30px;line-height:44px;}
+h1{font-size:40px;line-height:48px;}
+
+h3{font-size:32px;line-height:40px;}
+h4{font-size:28px;line-height:34px;}
+h5{font-size:24px;line-height:30px;}
+h6{font-size:1px;}
+
+
+
+.img-indent-bot{margin:5px 0 16px 0;}
+
+.hr-border-1
+{
+	 width:70%;
+    border-bottom:solid 3px #000;
+}
+
+
+
+
+

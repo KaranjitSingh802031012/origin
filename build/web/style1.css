@@ -1,0 +1,349 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2020, 7:45:05 PM
+    Author     : yadwinder
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background:url(q.jpg);
+    background-size: cover;
+    background-position:center;
+    font-family: sans-serif;
+}
+.reg{
+    width: 600px;
+    height:100px;
+    padding: 0px 30px;
+    
+}
+.regbox{
+    width: 800px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    top:80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+               
+}
+h1{
+   margin: 0;
+    padding: 0px 0px 10px 40px;
+    text-align: center;
+    font-size: 28px;  
+    position:relative;
+    color: cornflowerblue;
+    
+}
+.course{
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    outline: activeborder;
+    height: 26px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    
+}
+.regbox p{
+        margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.c{
+  width: 100%;
+    margin-bottom: 20px;
+font-size: 16px;    
+}
+.fname{
+    width:50%;
+    float: left;
+    
+}
+.first
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+.lname{
+    float: left;
+   width: 50%;
+}
+.last
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+
+.faname{
+    width:50%;
+    float: left;
+    
+}
+.father{ 
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+.moname{
+    float: left;
+   width: 50%;
+}
+.mother
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.mobile
+{
+ 
+    width:50%;
+    float: left;
+    
+}
+.mob
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.email{
+    width:50%;
+    float: left;
+    
+}
+.mail
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+.address
+{
+    width: 100%;
+    float:left;
+}
+.adr{
+    width: 95%;
+  border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 70px;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 6px;  
+    
+}
+.city{
+    width: 33%;
+    float: left;
+}
+.ci
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+.state{
+    width: 33%;
+    float: left;
+           
+}
+.st
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.pin{
+    width: 33%;
+    float: left;
+}
+.p
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+.dob{
+    width: 33%;
+    float: left;
+}
+.d
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+.hostel{
+    width: 33%;
+    float: left;
+           
+}
+.hr
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.gender{
+    width: 33%;
+    float: left;
+}
+.g
+{
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+
+.clg{
+    width:100%;
+    float: left;
+    
+}
+.college
+{
+    width: 95%;
+    border-bottom: 2px solid #fff;
+    outline:#ffffff;
+    height: 24px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+.qual{
+    width:100%;
+    float: left;
+    
+}
+.qualification{
+    width: 95%;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    height: 26px;
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    font-weight: 300;
+    
+}
+
+.regbox input[type="submit"]
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background:  cornflowerblue;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    
+}
+.regbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    
+}
